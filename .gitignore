@@ -1,0 +1,15 @@
+# Root Git ignore for TitanGaming monorepo
+node_modules/
+**/node_modules/
+
+# Next.js build output
+.next/
+**/.next/
+
+# Environment files
+.env
+.env.*
+
+# macOS
+.DS_Store
+**/.DS_Store
