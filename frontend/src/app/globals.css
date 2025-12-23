@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --background: #05050a;
+  --foreground: #e9e9ff;
+  --surface: rgba(255, 255, 255, 0.06);
+  --surface-strong: rgba(255, 255, 255, 0.1);
+  --muted: rgba(233, 233, 255, 0.72);
+  --neon-cyan: #00e5ff;
+  --neon-magenta: #ff4dfd;
+  --neon-green: #2aff9d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-muted: var(--muted);
+  --color-neon-cyan: var(--neon-cyan);
+  --color-neon-magenta: var(--neon-magenta);
+  --color-neon-green: var(--neon-green);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+}
